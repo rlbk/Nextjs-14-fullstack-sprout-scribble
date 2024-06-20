@@ -6,5 +6,9 @@ export default async function Home() {
     throw new Error(error);
   }
   console.log(success, "@Posts");
-  return <main>hello</main>;
+  return (
+    <main className="p-8">
+      <h1>main</h1>
+    </main>
+  );
 }
